@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Database connection is started]]>
+    </line>
+    <line>
+      <![CDATA[Extend report formation]]>
+    </line>
+    <line>
+      <![CDATA[user is able to maximize the  browser]]>
+    </line>
+    <line>
+      <![CDATA[user is able to login]]>
+    </line>
+    <line>
+      <![CDATA[Starting addToWishlist test]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on the gift card. Redirected to the product detail page]]>
+    </line>
+    <line>
+      <![CDATA[Recipient name is entered]]>
+    </line>
+    <line>
+      <![CDATA[Recipient email is entered]]>
+    </line>
+    <line>
+      <![CDATA[Added the product to the wishlist ]]>
+    </line>
+    <line>
+      <![CDATA[Redirected to the wishlist page]]>
+    </line>
+    <line>
+      <![CDATA[user is able to logout]]>
+    </line>
+    <line>
+      <![CDATA[user is able to close the browser]]>
+    </line>
+    <line>
+      <![CDATA[Database connection is stopped]]>
+    </line>
+    <line>
+      <![CDATA[Extend report formation end]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-13T13:22:28 GMT" name="Default suite" finished-at="2024-03-13T13:22:41 GMT" duration-ms="13387">
+    <groups>
+    </groups>
+    <test started-at="2024-03-13T13:22:28 GMT" name="Default test" finished-at="2024-03-13T13:22:41 GMT" duration-ms="13387">
+      <class name="TestAddProductToWishlist">
+        <test-method is-config="true" signature="dataBaseStart()[pri:0, instance:TestAddProductToWishlist@19bb07ed]" started-at="2024-03-13T13:22:28 GMT" name="dataBaseStart" finished-at="2024-03-13T13:22:28 GMT" duration-ms="14" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database connection is started]]>
+            </line>
+            <line>
+              <![CDATA[Extend report formation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataBaseStart -->
+        <test-method is-config="true" signature="browserSetUp(java.lang.String)[pri:0, instance:TestAddProductToWishlist@19bb07ed]" started-at="2024-03-13T13:22:28 GMT" name="browserSetUp" finished-at="2024-03-13T13:22:35 GMT" duration-ms="7370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[user is able to maximize the  browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestAddProductToWishlist@19bb07ed]" started-at="2024-03-13T13:22:35 GMT" name="login" finished-at="2024-03-13T13:22:37 GMT" duration-ms="1426" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[user is able to login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addToWishlist()[pri:0, instance:TestAddProductToWishlist@19bb07ed]" started-at="2024-03-13T13:22:37 GMT" name="addToWishlist" finished-at="2024-03-13T13:22:40 GMT" duration-ms="3598" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting addToWishlist test]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on the gift card. Redirected to the product detail page]]>
+            </line>
+            <line>
+              <![CDATA[Recipient name is entered]]>
+            </line>
+            <line>
+              <![CDATA[Recipient email is entered]]>
+            </line>
+            <line>
+              <![CDATA[Added the product to the wishlist ]]>
+            </line>
+            <line>
+              <![CDATA[Redirected to the wishlist page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToWishlist -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestAddProductToWishlist@19bb07ed]" started-at="2024-03-13T13:22:40 GMT" name="logout" finished-at="2024-03-13T13:22:41 GMT" duration-ms="754" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[user is able to logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDownBroswer()[pri:0, instance:TestAddProductToWishlist@19bb07ed]" started-at="2024-03-13T13:22:41 GMT" name="tearDownBroswer" finished-at="2024-03-13T13:22:41 GMT" duration-ms="206" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[user is able to close the browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownBroswer -->
+        <test-method is-config="true" signature="dataeBaseClosed()[pri:0, instance:TestAddProductToWishlist@19bb07ed]" started-at="2024-03-13T13:22:41 GMT" name="dataeBaseClosed" finished-at="2024-03-13T13:22:41 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database connection is stopped]]>
+            </line>
+            <line>
+              <![CDATA[Extend report formation end]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dataeBaseClosed -->
+      </class> <!-- TestAddProductToWishlist -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
